@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" parallel="false">
+	<parameter name="browser" value="Chrome" />
+
+<!-- 
+	 <listeners>
+		<listener
+			class-name="Utilities.ExtentITestListenerClassAdapter" />
+	</listeners> -->
+
+	<test name="NST Application Test">
+		<classes>
+			<class name="Pages.LoginPage" />
+			<class name="Pages.NST_details" />	
+			<class name="Pages.Application_step5" />	
+			<class name="Pages.SaveandShowPreview" />	
+			
+							
+		</classes>
+		
+ 
+	</test>
+	
+
+</suite>
