@@ -3,11 +3,10 @@
 <suite name="TestSuite" parallel="false">
 	<parameter name="browser" value="Chrome" />
 
-<!-- 
 	 <listeners>
 		<listener
-			class-name="Utilities.ExtentITestListenerClassAdapter" />
-	</listeners> -->
+			class-name="Utility.ExtentITestListenerClassAdapter" />
+	</listeners> 
 
 	<test name="NST Application Test">
 		<classes>
